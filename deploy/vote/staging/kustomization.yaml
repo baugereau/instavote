@@ -10,7 +10,7 @@ replicas:
   count: 5
 images:
 - name: schoolofdevops/vote
-  newTag: main-f3fb8c58-1652891243 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-56befb13-1652894324 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
