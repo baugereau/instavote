@@ -7,10 +7,10 @@ patchesStrategicMerge:
 - service.yaml
 replicas:
   - name: vote
-    count: 7 
+    count: 5 
 images:
   - name: schoolofdevops/vote
-    newTag: v6 # {"$imagepolicy": "flux-system:vote:tag"}
+    newTag: v7 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
