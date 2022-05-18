@@ -18,6 +18,5 @@ commonLabels:
 commonAnnotations:
   supported-by: "sre@example.com"
 configMapGenerator:
-  - name: voteoptions
-    env: options.env
-
+- name: voteoptions
+  env: options.env
